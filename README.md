@@ -4,10 +4,6 @@ Pull fork or copy the scripts of your choice.
 
 Most of the scripts in this repo work out of the box but can be modified to your liking.
 
-# How to make executable
-
-# how to run on with CRON jobs
-
 1. **Create a Bash Script**: Create a new file with a `.sh` extension. For example, `clean-desktop.sh`.
 
    ```bash
@@ -19,13 +15,15 @@ Most of the scripts in this repo work out of the box but can be modified to your
 
    Replace `/path/to/your/python/script` with the actual path to your Python script, and `/usr/bin/python3` with your Python interpreter path.
 
-2. **Make the Script Executable**: Open a terminal and run:
+# How to make executable
 
-   ```sh
-   chmod +x /path/to/your/trigger_python_script.sh
-   ```
+**Make the Script Executable**: Open a terminal and run:
 
-   Replace `/path/to/your/trigger_python_script.sh` with your actual script path.
+```sh
+chmod +x /path/to/your/trigger_python_script.sh
+```
+
+Replace `/path/to/your/trigger_python_script.sh` with your actual script path.
 
 ## Scheduling the Script with Cron
 
@@ -51,10 +49,6 @@ Most of the scripts in this repo work out of the box but can be modified to your
 - `0 */2 * * *` - Every 2 hours
 - `0 0 * * 0` - Every Sunday at midnight
 - `*/5 * * * *` - Every 5 minutes
-
-## Summary
-
-By following these steps, you can create a Bash script to execute commands and schedule it to run at specific times using cron. Adjust paths and schedules according to your requirements.
 
 # auto-sync.sh
 
