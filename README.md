@@ -56,9 +56,6 @@ Most of the scripts in this repo work out of the box but can be modified to your
 
 By following these steps, you can create a Bash script to execute commands and schedule it to run at specific times using cron. Adjust paths and schedules according to your requirements.
 
-```
-
-
 # auto-sync.sh
 
 auto-sync is used to sync two folders to be duplicates of one another.
@@ -78,8 +75,3 @@ clean desktop is a simple script to clean your desktop of standard file extensio
 # desktop2.sh
 
 when first run will create a new directory called desktop2 that will be a sibling of the standard desktop. the script will then move all filed from desktop to desktop2
-
-# How to make exicuteable
-
-# how to run on with CRON jobs
-```
