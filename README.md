@@ -4,26 +4,23 @@ Pull fork or copy the scripts of your choice.
 
 Most of the scripts in this repo work out of the box but can be modified to your liking.
 
-1. **Create a Bash Script**: Create a new file with a `.sh` extension. For example, `clean-desktop.sh`.
+**Create a Bash Script**: Create a new file with a `.sh` extension. For example, `clean_desktop.sh`.
 
-   ```bash
-   #!/bin/bash
-   # Example script: Navigate to a directory and execute a Python script
-   cd /path/to/your/python/script
-   /usr/bin/python3 your_script.py
-   ```
+(or just copy a file from the repo)
 
-   Replace `/path/to/your/python/script` with the actual path to your Python script, and `/usr/bin/python3` with your Python interpreter path.
+```bash
+# paste bash code from your script of choice
+```
 
 # How to make executable
 
 **Make the Script Executable**: Open a terminal and run:
 
 ```sh
-chmod +x /path/to/your/trigger_python_script.sh
+chmod +x /path/to/your/clean_desktop.sh
 ```
 
-Replace `/path/to/your/trigger_python_script.sh` with your actual script path.
+Replace `/path/to/your/clean_desktop.sh` with your actual script path.
 
 ## Scheduling the Script with Cron
 
@@ -36,7 +33,7 @@ Replace `/path/to/your/trigger_python_script.sh` with your actual script path.
 2. **Add Cron Job**: Add a line to schedule your Bash script. For example, to run the script every day at 3 AM:
 
    ```sh
-   0 3 * * * /path/to/your/trigger_python_script.sh
+   0 3 * * * /path/to/your/clean_desktop.sh
    ```
 
    This line specifies the minute (0), hour (3), every day of the month (_), every month (_), and every day of the week (\*).
