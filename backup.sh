@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Directory to backup
 SOURCE_DIR="/path/to/source"
 
