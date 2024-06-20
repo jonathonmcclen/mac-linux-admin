@@ -17,3 +17,9 @@ if you are looking for continuous back up in a single folder you are looking for
 clean desktop is a simple script to clean your desktop of standard file extensions. jpg, png, mp4, pdf, etc... will be moved to files of your choosing ( mac standard folders music, pictures, movies, documents recommended )
 
 # desktop2.sh
+
+when first run will create a new directory called desktop2 that will be a sibling of the standard desktop. the script will then move all filed from desktop to desktop2
+
+# How to make exicuteable
+
+# how to run on with CRON jobs
